@@ -26,6 +26,8 @@ export default function Shop() {
         <Route path="all" element={<ShopAll />} />
         <Route path="mens" element={<ShopMens />} />
         <Route path="womens" element={<ShopWomens />} />
+        {}
+        <Route path="" element={<ShopAll />} />
       </Routes>
     </div>
   );
